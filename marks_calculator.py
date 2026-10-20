@@ -1,18 +1,31 @@
+
 print("=== Student Marks Calculator ===")
 
 name = input("Enter your name: ")
 
-em3 = float(input("Enter your EM3 marks (out of 100): "))
-smra = float(input("Enter your SMRA marks (out of 100): "))
-smm = float(input("Enter your SMM marks (out of 100): "))
-cprogramming = float(input("Enter your C Programming marks (out of 100): "))
+subjects = ["EM3", "SMRA", "SMM", "C Programming"]
+marks = []
 
-total = em3 + smra + smm + cprogramming
-average = total / 4
+for subject in subjects:
+    while True:
+        try:
+            mark = float(input(f"Enter your {subject} marks (out of 100): "))
+
+            if 0 <= mark <= 100:
+                marks.append(mark)
+                break
+            else:
+                print("Marks must be between 0 and 100.")
+
+        except ValueError:
+            print("Please enter a valid number.")
+
+total = sum(marks)
+average = total / len(subjects)
 
 print("\n--- Your Results ---")
 print("Student:", name)
-print("Total Marks:", total, "/ 400")
+print(f"Total Marks: {total:.2f} / 400")
 print(f"Average: {average:.2f}%")
 
 if average >= 40:

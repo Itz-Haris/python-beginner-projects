@@ -1,3 +1,4 @@
+
 # Python Beginner Projects
 
 A collection of beginner-friendly Python projects I'm building while learning programming and developing skills for robotics and automation.
@@ -14,7 +15,22 @@ A simple Python program that:
 
 **Concepts used:** Variables, user input, type conversion, arithmetic operations, and conditional statements.
 
+### 2. Distance Alert Simulator
+
+A Python program that simulates obstacle detection logic for a robot using manually entered distance readings.
+
+**Features:**
+- Accepts distance readings in centimetres.
+- Displays STOP, WARNING, or SAFE based on distance.
+- Identifies negative distances as invalid.
+- Repeats readings until the user chooses to quit.
+
+**Concepts used:** Conditional statements, comparison operators, loops, user input, and type conversion.
+
+**Note:** This is a software simulation; it does not use a physical sensor.
+
 ## Technologies
+
 - Python
 - Git
 - GitHub
@@ -22,3 +38,4 @@ A simple Python program that:
 ## Goal
 
 To practise programming fundamentals and gradually build projects related to robotics, automation, and AI.
+clea

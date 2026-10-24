@@ -1,7 +1,6 @@
-
 # Python Beginner Projects
 
-A collection of beginner-friendly Python projects I'm building while learning programming and developing skills for robotics and automation.
+A collection of beginner-friendly Python projects I'm building while learning programming and developing practical skills for **robotics, automation, and AI**.
 
 ## Projects
 
@@ -29,13 +28,6 @@ A Python program that simulates obstacle detection logic for a robot using manua
 
 **Note:** This is a software simulation; it does not use a physical sensor.
 
-## Technologies
+### 3. Engineering Unit Converter
 
-- Python
-- Git
-- GitHub
-
-## Goal
-
-To practise programming fundamentals and gradually build projects related to robotics, automation, and AI.
-clea
+A Python program that converts a length entered in millimetres into other

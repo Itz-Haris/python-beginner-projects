@@ -2,6 +2,7 @@ distance = float(input("Enter the distance to the obstacle in cm: "))
 
 if distance < 0:
     print("Invalid distance!")
+    
 elif distance <= 10:
     print("CRITICAL! Obstacle is too close.")
     print("Action: STOP immediately.")

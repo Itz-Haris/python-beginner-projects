@@ -1,6 +1,6 @@
 # Python Beginner Projects
 
-A collection of beginner-friendly Python projects I'm building while learning programming and developing practical skills for **robotics, automation, and AI**.
+A collection of beginner-friendly Python projects I'm building while learning programming and developing skills for robotics and automation.
 
 ## Projects
 
@@ -30,4 +30,22 @@ A Python program that simulates obstacle detection logic for a robot using manua
 
 ### 3. Engineering Unit Converter
 
-A Python program that converts a length entered in millimetres into other
+A Python program that converts a length entered in millimetres into other engineering units.
+
+**Features:**
+- Converts millimetres into centimetres.
+- Converts millimetres into metres.
+- Converts millimetres into kilometres.
+- Handles invalid inputs and negative values.
+
+**Concepts used:** Functions, arithmetic operations, user input, type conversion, conditional statements, and exception handling.
+
+## Technologies
+
+- Python
+- Git
+- GitHub
+
+## Goal
+
+To practise programming fundamentals and gradually build projects related to robotics, automation, and AI.

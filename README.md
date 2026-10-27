@@ -1,6 +1,6 @@
 # Python Beginner Projects
 
-A collection of beginner-friendly Python projects I'm building while learning programming and developing skills for robotics and automation.
+A collection of beginner-friendly Python projects I'm building while learning programming and developing practical skills for **robotics, automation, and AI**.
 
 ## Projects
 
@@ -40,12 +40,33 @@ A Python program that converts a length entered in millimetres into other engine
 
 **Concepts used:** Functions, arithmetic operations, user input, type conversion, conditional statements, and exception handling.
 
+### 4. Robot Battery Monitor
+
+A Python program that simulates a robot's battery monitoring system based on a user-entered battery percentage.
+
+**Features:**
+- Accepts battery levels from 0% to 100%.
+- Displays battery health and charging recommendations.
+- Warns when the battery is low or empty.
+- Handles invalid input and out-of-range values.
+
+**Concepts used:** Functions, conditional statements, comparison operators, user input, type conversion, and exception handling.
+
+**Note:** This is a software simulation and does not measure a physical battery.
+
 ## Technologies
 
 - Python
 - Git
 - GitHub
 
-## Goal
+## Learning Goals
 
-To practise programming fundamentals and gradually build projects related to robotics, automation, and AI.
+- Strengthen Python programming fundamentals.
+- Practise problem-solving through hands-on projects.
+- Build a foundation for robotics, automation, and AI.
+- Learn version control and maintain projects using Git and GitHub.
+
+---
+
+*Learning, building, and improving one project at a time.*
